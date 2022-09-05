@@ -19,5 +19,6 @@ model.compile(optimizer='adam', #학습
 
 model.fit(x_train, y_train, epochs=5)
 model.summary()
-
+print(train_images.shape)
 #https://wandb.ai/wandb_fc/korean/reports/-Keras---VmlldzoxODc4MDYx
+#https://codetorial.net/matplotlib/index.html
